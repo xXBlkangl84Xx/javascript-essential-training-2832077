@@ -17,3 +17,5 @@ class Desk {
     return console.log("Desk Disassembled");
   }
 }
+
+export default Desk;
