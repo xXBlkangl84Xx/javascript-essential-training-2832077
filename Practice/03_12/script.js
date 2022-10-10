@@ -6,9 +6,9 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
-import Backpack from "./Backpack";
-import Desk from "./Desk";
-import ComputerBag from "./ComputerBag";
+import Backpack from "Backpack.js";
+import Desk from "..03_12/Desk.js";
+import ComputerBag from "./ComputerBag.js";
 
 const officeDesk = new Desk("Office Desk", 2, 4, 6, "dark brown", true);
 const pComputerBag = new ComputerBag(
@@ -21,3 +21,6 @@ const pComputerBag = new ComputerBag(
   25,
   true
 );
+
+console.log(pComputerBag);
+console.log(officeDesk);
